@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+                <!--设置上方textview-->
+                <LinearLayout
+                    android:id="@+id/textview_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+                        <TextView
+                            style="@style/textview_style"
+                            android:text="@string/chongzhijine" />
+                        <TextView
+                            style="@style/textview_style"
+                            android:text="@string/zensongjine" />
+                        <TextView
+                            style="@style/textview_style"
+                            android:text="@string/tongdanjia" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textview_1"
+                    >
+                        <!--设置上方输入edittext-->
+                        <LinearLayout
+                            android:id="@+id/diyihang"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+                            android:orientation="horizontal"
+                            >
+                                <EditText
+                                    android:id="@+id/czje"
+                                    style="@style/edit_style"
+                                    android:hint="@string/chongzhijine"/>
+                                <EditText
+                                    android:id="@+id/zsje"
+                                    style="@style/edit_style"
+                                    android:hint="@string/zensongjine"/>
+                                <EditText
+                                    android:id="@+id/tdj"
+                                    style="@style/edit_style"
+                                    android:inputType="numberDecimal"
+                                    android:hint="@string/tongdanjia"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/dierhang"
+                            android:layout_below="@id/diyihang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                                <Button
+                                    android:id="@+id/js"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    style="@style/button_style"
+                                    android:text="@string/jisuan"/>
+                                <Button
+                                    android:id="@+id/qingkong"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    style="@style/button_style"
+                                    android:text="@string/qingkong"/>
+                        </LinearLayout>
+                        <!--设置下方输入edittext-->
+                        <LinearLayout
+                            android:id="@+id/disanhang"
+                            android:layout_below="@id/dierhang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+                            android:orientation="horizontal"
+                            >
+                                <EditText
+                                    android:id="@+id/knzje"
+                                    style="@style/edit_style"
+                                    android:hint="@string/kaneizongjine"/>
+                                <EditText
+                                    android:id="@+id/szts"
+                                    style="@style/edit_style"
+                                    android:hint="@string/shijitongshu"/>
+                                <EditText
+                                    android:id="@+id/sjtdj"
+                                    style="@style/edit_style"
+                                    android:hint="@string/shijitongdanjia"/>
+                        </LinearLayout>
+
+                        <!--设置下方textview-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/disanhang"
+                            android:orientation="horizontal"
+                            >
+                                <TextView
+                                    style="@style/textview_style"
+                                    android:text="@string/kaneizongjine"/>
+                                <TextView
+                                    style="@style/textview_style"
+                                    android:text="@string/shijitongshu"/>
+                                <TextView
+                                    style="@style/textview_style"
+                                    android:text="@string/shijitongdanjia"/>
+                        </LinearLayout>
+                </RelativeLayout>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/help"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/button_style"
+                    android:text="@string/shiyongshuoming"
+                    android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+</RelativeLayout>

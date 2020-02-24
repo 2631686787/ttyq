@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">天天一泉活动助手</string>
+    <string name="chongzhijine">充值金额</string>
+    <string name="zensongjine">赠送金额</string>
+    <string name="tongdanjia">桶单价</string>
+
+
+    <string name="jisuan">计   算</string>
+    <string name="qingkong">清   空(桶单价除外)</string>
+    <string name="shiyongshuoming">不懂点我</string>
+
+    <string name="kaneizongjine">卡内总金额</string>
+    <string name="shijitongshu">实折桶数</string>
+    <string name="shijitongdanjia">实际桶单价</string>
+
+    <string name="help">使用帮助</string>
+    <string name="shuoming">只需要输入“充值金额”“赠送金额”“桶单价”即可计算
+            桶单价支持到小数点后三位，理论上无限制，只不过小数点后位数越多，
+        最后计算结果也不会发生太大改变，所以一般输到小数点后二位就行了。
+                        如有疑问可以直接微信联系作者：admin2631</string>
+
+    <string name="toast1">充值金额不能为空</string>
+    <string name="toast2">赠送金额不能为空，如不赠送请输0</string>
+    <string name="toast3">桶单价不能为空</string>
+</resources>
