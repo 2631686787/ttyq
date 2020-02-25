@@ -143,12 +143,8 @@ public class MainActivity extends AppCompatActivity {
         //桶数
         float ts = (cz+zs)/t;
 
-        //充值金额转int
-        String s_czje = chongzhijine.getText().toString();
-        float f_cz = Integer.parseInt(s_czje);
-
         //实际桶单价=充值金额/实折桶数
-        float s = f_cz/ts;
+        float s = cz/ts;
         //取小数点后两位
         java.text.DecimalFormat myformat=new java.text.DecimalFormat("0.00");
         String sum = myformat.format(s);
