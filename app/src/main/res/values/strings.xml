@@ -4,6 +4,9 @@
     <string name="zensongjine">赠送金额</string>
     <string name="tongdanjia">桶单价</string>
 
+//hint
+    <string name="qingshuru">...</string>
+
 
     <string name="jisuan">计   算</string>
     <string name="qingkong">清   空(桶单价除外)</string>

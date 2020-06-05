@@ -46,17 +46,14 @@
                             >
                                 <EditText
                                     android:id="@+id/czje"
-                                    style="@style/edit_style"
-                                    android:hint="@string/chongzhijine"/>
+                                    style="@style/edit_style" />
                                 <EditText
                                     android:id="@+id/zsje"
-                                    style="@style/edit_style"
-                                    android:hint="@string/zensongjine"/>
+                                    style="@style/edit_style" />
                                 <EditText
                                     android:id="@+id/tdj"
                                     style="@style/edit_style"
-                                    android:inputType="numberDecimal"
-                                    android:hint="@string/tongdanjia"/>
+                                    android:inputType="numberDecimal"/>
                         </LinearLayout>
 
                         <LinearLayout
@@ -89,16 +86,13 @@
                             >
                                 <EditText
                                     android:id="@+id/knzje"
-                                    style="@style/edit_style"
-                                    android:hint="@string/kaneizongjine"/>
+                                    style="@style/edit_style" />
                                 <EditText
                                     android:id="@+id/szts"
-                                    style="@style/edit_style"
-                                    android:hint="@string/shijitongshu"/>
+                                    style="@style/edit_style" />
                                 <EditText
                                     android:id="@+id/sjtdj"
-                                    style="@style/edit_style"
-                                    android:hint="@string/shijitongdanjia"/>
+                                    style="@style/edit_style" />
                         </LinearLayout>
 
                         <!--设置下方textview-->
